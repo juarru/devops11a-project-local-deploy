@@ -1,0 +1,3 @@
+resources:
+  - elasticsearch-service.yml
+  - elasticsearch-statefulset.yml

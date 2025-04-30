@@ -1,0 +1,4 @@
+resources:
+  - grafana-deployment.yml
+  - grafana-service.yml
+  - grafana-ingress.yml

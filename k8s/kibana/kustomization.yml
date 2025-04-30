@@ -1,0 +1,4 @@
+resources:
+  - kibana-deployment.yml
+  - kibana-service.yml
+  - kibana-ingress.yml
