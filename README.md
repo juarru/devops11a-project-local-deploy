@@ -1,6 +1,6 @@
-# PRÁCTICA CICLO DE VIDA DE UN DESARROLLO - CICD - JUAN ARILLO
+# PROYECTO GRUPO DEVOPS11A
 
-Práctica de Juan Arillo para el módulo de **Ciclo de vida de un desarrollo - CICD**.
+Proyecto del grupo DEVOPS11A  
 
 Repositorio de manifiestos de Kubernetes y argocd para la práctica de cicd.
 
