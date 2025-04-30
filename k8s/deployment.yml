@@ -16,7 +16,7 @@ spec:
       containers:
         - name: flask
           image: ghcr.io/juarru/devops11a-project-app:main
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           resources:

@@ -94,5 +94,5 @@ Una vez configurado esto, podemos acceder a la aplicación en la url `http://fla
 ## Notas
 
 - La sincronización en ArgoCD está configurada con auto-pruning y self-heal.
-- La imagen de la aplicación Flask se obtiene desde `juanarillo/cicd_practica:latest`.
+- La imagen de la aplicación Flask se obtiene desde `ghcr.io/juarru/devops11a-project-app:main`.
 - El servicio de Redis se ejecuta en el namespace `flask`.
