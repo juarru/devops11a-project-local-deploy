@@ -1,0 +1,11 @@
+resources:
+  - deployment.yml
+  - ingress.yml
+  - namespace.yml
+  - redis-deployment.yml
+  - redis-service.yml
+  - service.yml
+  - kibana/
+  - prometheus/
+  - grafana/
+  - elasticsearch/
