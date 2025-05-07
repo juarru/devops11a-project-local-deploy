@@ -1,0 +1,33 @@
+{
+    "title": "Dashboard de Métricas - Aplicación Web",
+    "timezone": "browser",
+    "refresh": "5s",
+    "schemaVersion": 36,
+    "version": 1,
+    "panels": [
+      {
+        "type": "stat",
+        "title": "Llamadas totales - /",
+        "targets": [{ "expr": "main_requests_total", "format": "time_series" }],
+        "gridPos": { "x": 0, "y": 0, "w": 6, "h": 4 }
+      },
+      {
+        "type": "stat",
+        "title": "Llamadas totales - /logs",
+        "targets": [{ "expr": "logs_requests_total", "format": "time_series" }],
+        "gridPos": { "x": 6, "y": 0, "w": 6, "h": 4 }
+      },
+      {
+        "type": "stat",
+        "title": "Llamadas totales - /health",
+        "targets": [{ "expr": "healthcheck_requests_total", "format": "time_series" }],
+        "gridPos": { "x": 6, "y": 4, "w": 6, "h": 4 }
+      },
+      {
+        "type": "stat",
+        "title": "Llamadas totales",
+        "targets": [{ "expr": "server_requests_total", "format": "time_series" }],
+        "gridPos": { "x": 0, "y": 4, "w": 6, "h": 4 }
+      }
+    ]
+  }
